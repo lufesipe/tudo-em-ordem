@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint:staged": "turbo run lint:staged",
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.1.0",
+    "turbo": "^1.10.16",
+    "typescript": "^5"
+  }
+}

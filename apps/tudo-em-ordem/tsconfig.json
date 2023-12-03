@@ -1,0 +1,10 @@
+{
+  "extends": "@tudo-em-ordem/tsconfig/next.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src", ".next/types/**/*.ts"]
+}
